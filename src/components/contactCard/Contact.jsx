@@ -1,10 +1,10 @@
-import { Fade } from "react-reveal"
+
 
 const Card = () => {
     return (
         <>
             <div className="contact__menu">
-                <Fade left cascade>
+             
                     <div className="menu_left">
                         <div className="menu__item">
                             <a href='tel:998149033' className="item_icon">
@@ -34,8 +34,8 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
-                </Fade>
-                <Fade right cascade>
+         
+            
                     <div className="menu_right">
                         <div className="menu__item">
                             <a href='tel:998149033' className="item_icon">
@@ -65,7 +65,7 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
-                </Fade>
+                
 
             </div>
         </>

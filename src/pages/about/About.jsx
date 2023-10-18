@@ -3,7 +3,7 @@ import aboutVideo from './../../video/about.mp4'
 import AboutText from '../../components/about-text/aboutText';
 import Skills from '../../components/about-text/aboutSkills';
 import Footer from '../../components/footer/footer';
-import { Fade } from "react-reveal";
+
 
 const About = () => {
     return (
@@ -13,14 +13,14 @@ const About = () => {
 
 
                 <div className="about__title">
-                <Fade top cascade >
+               
                     <div className="about_title_text">About</div>
-                </Fade>
+                
                 </div>
                 <div className="about__content">
-                    <Fade left cascade>
+                    
                         <video src={aboutVideo} autoPlay loop className='about_video' muted></video>
-                    </Fade>
+                    
                     <AboutText />
                 </div>
             </section>

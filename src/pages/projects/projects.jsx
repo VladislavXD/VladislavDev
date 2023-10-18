@@ -3,7 +3,7 @@ import Project from '../../components/project/project'
 import { projects } from '../../helpers/projectsList'
 import Footer from '../../components/footer/footer'
 
-import { Fade } from 'react-reveal'
+
 // Fade animate
 const Projects = () => {
 
@@ -13,9 +13,9 @@ const Projects = () => {
             
             <section className="projects" >
                 <div className="project__text">
-                    <Fade top cascade >
+                   
                         <div className="projects__title">Projects</div>
-                    </Fade>
+               
 
 
 

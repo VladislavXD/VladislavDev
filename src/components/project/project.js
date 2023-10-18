@@ -1,16 +1,16 @@
-import { Fade } from "react-reveal";
+
 // Fade animate 
 
 const Project = ({ id, title, img, content, gitHubLink, demo }) => {
     return (
         <div className="prpjects__item">
-            <Fade bottom cascade>
+          
                 <div className="image ">
                     <div className="number"><span>{id}</span></div>
                     <img className='item__img' src={img} alt="" />
                 </div>
-            </Fade>
-            <Fade bottom cascade>
+           
+            
                 <div className="menu__text ">
                     <h2 className="item__title">{title}</h2>
                     <p className="item__text">{content}</p>
@@ -21,7 +21,7 @@ const Project = ({ id, title, img, content, gitHubLink, demo }) => {
                         <button className='btn demo'><a href={demo} target="_blank">Demo</a><i className="fa-solid fa-link"></i></button>
                     </div>
                 </div>
-            </Fade>
+            
 
         </div>
 
